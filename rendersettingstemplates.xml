@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<!DOCTYPE VRED>
+<message id="0" rendersettings_version="1" type="VRED" version="0.80000001">
+ <key name="Denoise 2x Upscaling" type="std_vector_bool">|0|</key>
+ <key name="Denoise Alpha" type="std_vector_bool">|1|</key>
+ <key name="Denoise Filter Type" type="std_vector_unsigned_int">|0|</key>
+ <key name="Denoiser Input" type="std_vector_int">|0|</key>
+ <key name="Denoiser Type" type="std_vector_unsigned_int">|0|</key>
+ <key name="High Quality Texture Filtering" type="std_vector_bool">|1|</key>
+ <key name="Illuminant" type="std_vector_int">|1|</key>
+ <key name="ImageExport depth pass mode" type="std_vector_int">|0|</key>
+ <key name="ImageExport depth range max" type="std_vector_float">|100000|</key>
+ <key name="ImageExport depth range min" type="std_vector_float">|0|</key>
+ <key name="ImageExport occlusion range max" type="std_vector_float">|1e+09|</key>
+ <key name="ImageExport occlusion range min" type="std_vector_float">|0|</key>
+ <key name="Interactive Texture Sharpness" type="std_vector_float">|0.5|</key>
+ <key name="Light Evaluation Threshold" type="std_vector_float">|0.001|</key>
+ <key name="Photon Lookup Count" type="std_vector_int">|16|</key>
+ <key name="Photon Trace Depth" type="std_vector_int">|32|</key>
+ <key name="SampleOffset" type="std_vector_int">|0|</key>
+ <key name="Still Frame Supersampling" type="std_vector_int">|1|</key>
+ <key name="Texture Sharpness" type="std_vector_float">|0.25|</key>
+ <key name="Use Denoise Filter Flag" type="std_vector_bool">||</key>
+ <key name="Use Final Gather for Glossy" type="std_vector_bool">|0|</key>
+ <key name="Use Infinite Rendering Flag" type="std_vector_bool">|1|</key>
+ <key name="Use Ray Splitting" type="std_vector_bool">|1|</key>
+ <key name="Use Two Sample MIS" type="std_vector_bool">|0|</key>
+ <key name="aaThresholdQuality" type="std_vector_int">|5|</key>
+ <key name="adaptiveSamples" type="std_vector_int">||</key>
+ <key name="albedo_pass" type="std_vector_bool">|0|</key>
+ <key name="alpha" type="std_vector_bool">|1|</key>
+ <key name="animationType" type="std_vector_int">|0|</key>
+ <key name="backgroundColorB" type="std_vector_float">|0|</key>
+ <key name="backgroundColorG" type="std_vector_float">|0|</key>
+ <key name="backgroundColorR" type="std_vector_float">|0|</key>
+ <key name="background_color_pass" type="std_vector_bool">|0|</key>
+ <key name="backplate_pass" type="std_vector_bool">|0|</key>
+ <key name="beauty_pass" type="std_vector_bool">|1|</key>
+ <key name="brdfMode" type="std_vector_int">|2|</key>
+ <key name="camera_normal_pass" type="std_vector_bool">|0|</key>
+ <key name="clip" type="std_vector_std_string">||</key>
+ <key name="crypto_material_pass" type="std_vector_bool">|1|</key>
+ <key name="crypto_object_pass" type="std_vector_bool">|0|</key>
+ <key name="depth_pass" type="std_vector_bool">|0|</key>
+ <key name="diffuse_color_pass" type="std_vector_bool">|0|</key>
+ <key name="diffuse_ibl_illumination_pass" type="std_vector_bool">|0|</key>
+ <key name="diffuse_ibl_pass" type="std_vector_bool">|0|</key>
+ <key name="diffuse_indirect_illumination_pass" type="std_vector_bool">|0|</key>
+ <key name="diffuse_indirect_pass" type="std_vector_bool">|0|</key>
+ <key name="diffuse_light_illumination_pass" type="std_vector_bool">|0|</key>
+ <key name="diffuse_light_pass" type="std_vector_bool">|1|</key>
+ <key name="displayLuminance" type="std_vector_float">|1|</key>
+ <key name="enableClamping" type="std_vector_bool">|1|</key>
+ <key name="environmentInteractiveQuality" type="std_vector_int">|1|</key>
+ <key name="environmentStillQuality" type="std_vector_int">|1|</key>
+ <key name="exportType" type="std_vector_int">|0|</key>
+ <key name="exrHalf" type="std_vector_bool">|0|</key>
+ <key name="filename" type="std_vector_std_string">|QzovVXNlcnMvc2lrYWkuY2hlbi9EZXNrdG9wL3JvYm9YLzA0NTY1Njc3Nzg3LmV4cg==|</key>
+ <key name="filterHeight" type="std_vector_float">|1|</key>
+ <key name="filterType" type="std_vector_int">|7|</key>
+ <key name="filterWidth" type="std_vector_float">|1|</key>
+ <key name="finalGatherQuality" type="std_vector_int">|2|</key>
+ <key name="finalGatherRadius" type="std_vector_float">|25|</key>
+ <key name="fog_pass" type="std_vector_bool">|0:0|</key>
+ <key name="fps" type="std_vector_int">|25|</key>
+ <key name="frontplate_pass" type="std_vector_bool">|0|</key>
+ <key name="glossy_color_pass" type="std_vector_bool">|0|</key>
+ <key name="glossy_ibl_illumination_pass" type="std_vector_bool">|0|</key>
+ <key name="glossy_ibl_pass" type="std_vector_bool">|0|</key>
+ <key name="glossy_indirect_illumination_pass" type="std_vector_bool">|0|</key>
+ <key name="glossy_indirect_pass" type="std_vector_bool">|0|</key>
+ <key name="glossy_light_illumination_pass" type="std_vector_bool">|0|</key>
+ <key name="glossy_light_pass" type="std_vector_bool">|1|</key>
+ <key name="iccProfileID" type="std_vector_int">|0|</key>
+ <key name="ignoreOverrideIBLQuality" type="std_vector_bool">|0|</key>
+ <key name="ignoreOverrideIlluminationMode" type="std_vector_bool">|0|</key>
+ <key name="ignoreOverrideReflectionQuality" type="std_vector_bool">|0|</key>
+ <key name="ignoreOverrideTraceDepth" type="std_vector_bool">|0|</key>
+ <key name="imageSamples" type="std_vector_int">|512|</key>
+ <key name="incandescence_pass" type="std_vector_bool">|1|</key>
+ <key name="indirectPhotonRadius" type="std_vector_float">|25|</key>
+ <key name="interactiveFinalGatherQuality" type="std_vector_int">|2|</key>
+ <key name="interactivePhotonCount" type="std_vector_int">|50000|</key>
+ <key name="interactiveQuality" type="std_vector_int">|1|</key>
+ <key name="interactiveQualityMode" type="std_vector_int">|3|</key>
+ <key name="lens_flare_pass" type="std_vector_bool">|0|</key>
+ <key name="lightOptimizationMode" type="std_vector_int">|1|</key>
+ <key name="mask_pass" type="std_vector_bool">|0|</key>
+ <key name="material_id_pass" type="std_vector_bool">|0|</key>
+ <key name="maxReflectionDepth" type="std_vector_int">|8|</key>
+ <key name="metaDataFlags" type="std_vector_int">|121|</key>
+ <key name="multiLayer" type="std_vector_bool">|1|</key>
+ <key name="name" type="std_vector_std_string">|S0tfcXVpY2tfZXhyIGZvciBBNTAwMA==|</key>
+ <key name="normal_pass" type="std_vector_bool">|0|</key>
+ <key name="nurbsEpsilon" type="std_vector_float">|0.01|</key>
+ <key name="nurbsMaxDepthCurve" type="std_vector_int">|6|</key>
+ <key name="nurbsMaxDepthSurface" type="std_vector_int">|8|</key>
+ <key name="nurbsMinDepthCurve" type="std_vector_int">|0|</key>
+ <key name="nurbsMinDepthSurface" type="std_vector_int">|2|</key>
+ <key name="nurbsMode" type="std_vector_int">|0|</key>
+ <key name="nurbsNewtonEpsilon" type="std_vector_float">|0.005|</key>
+ <key name="nurbsThresholdCurve" type="std_vector_float">|0.975|</key>
+ <key name="nurbsThresholdSurface" type="std_vector_float">|0.975|</key>
+ <key name="nurbsUsePreclassification" type="std_vector_bool">|1|</key>
+ <key name="occlusion_pass" type="std_vector_bool">|1|</key>
+ <key name="pbParameters" type="std_vector_bool">|0|</key>
+ <key name="photonCount" type="std_vector_int">|100000|</key>
+ <key name="photonMapFreezeMode" type="std_vector_int">|0|</key>
+ <key name="photonMapRefreshMode" type="std_vector_int">|1|</key>
+ <key name="photonMode" type="std_vector_int">|0|</key>
+ <key name="photonNoiseReductionSteps" type="std_vector_int">|0|</key>
+ <key name="photonUseAutomaticRadius" type="std_vector_bool">|1|</key>
+ <key name="pixel_height" type="std_vector_float">|2160|</key>
+ <key name="pixel_width" type="std_vector_float">|4096|</key>
+ <key name="position_pass" type="std_vector_bool">|0|</key>
+ <key name="ppi" type="std_vector_float">|72|</key>
+ <key name="premultiply" type="std_vector_bool">|1|</key>
+ <key name="reflectionClampValue" type="std_vector_float">|16|</key>
+ <key name="region_end_x" type="std_vector_int">|2825|</key>
+ <key name="region_end_y" type="std_vector_int">|1289|</key>
+ <key name="region_start_x" type="std_vector_int">|2338|</key>
+ <key name="region_start_y" type="std_vector_int">|963|</key>
+ <key name="renderAnimation" type="std_vector_bool">|0|</key>
+ <key name="renderTime" type="std_vector_unsigned_int">|90|</key>
+ <key name="renderer" type="std_vector_int">|0|</key>
+ <key name="renderpasses" type="std_vector_bool">|1|</key>
+ <key name="samplesThreshold" type="std_vector_int">|1|</key>
+ <key name="sim2LuminanceMapping" type="std_vector_float">|2000|</key>
+ <key name="spectralRendering" type="std_vector_bool">|0|</key>
+ <key name="specular_color_pass" type="std_vector_bool">|1|</key>
+ <key name="specular_ibl_pass" type="std_vector_bool">|1|</key>
+ <key name="specular_light_pass" type="std_vector_bool">|0|</key>
+ <key name="specular_reflection_pass" type="std_vector_bool">|0|</key>
+ <key name="ssFactor" type="std_vector_int">|3|</key>
+ <key name="startFrame" type="std_vector_int">|0|</key>
+ <key name="stepFrame" type="std_vector_int">|1|</key>
+ <key name="stillFrameReflectionDepth" type="std_vector_int">|16|</key>
+ <key name="stillQuality" type="std_vector_int">|1|</key>
+ <key name="stillQualityMode" type="std_vector_int">|3|</key>
+ <key name="stopFrame" type="std_vector_int">|25|</key>
+ <key name="tiffHDR" type="std_vector_bool">|0|</key>
+ <key name="timeStamp" type="std_vector_bool">|0|</key>
+ <key name="tonemap_hdr" type="std_vector_bool">|1|</key>
+ <key name="translucency_color_pass" type="std_vector_bool">|0|</key>
+ <key name="translucency_ibl_illumination_pass" type="std_vector_bool">|0|</key>
+ <key name="translucency_indirect_illumination_pass" type="std_vector_bool">|0|</key>
+ <key name="translucency_light_illumination_pass" type="std_vector_bool">|0|</key>
+ <key name="translucency_pass" type="std_vector_bool">|0|</key>
+ <key name="transparency_color_pass" type="std_vector_bool">|1|</key>
+ <key name="useClipRange" type="std_vector_bool">|1|</key>
+ <key name="useTimeLimit" type="std_vector_bool">|0|</key>
+ <key name="use_render_region" type="std_vector_bool">|0|</key>
+ <key name="variantSetViewpointsUsed" type="std_vector_bool">|0|</key>
+ <key name="variantSets" type="std_vector_renderAutomationVariantSetGroups">[[]]</key>
+ <key name="variantSetsUsed" type="std_vector_bool">|0|</key>
+ <key name="view" type="std_vector_std_string">||</key>
+ <key name="view_vector_pass" type="std_vector_bool">|0|</key>
+ <key name="volume_color_pass" type="std_vector_bool">||</key>
+ <key name="vrRenderSettingsPreset" type="unsigned_int">1</key>
+ <key name="_checksum" type="unsigned_int">1059790629</key>
+</message>
